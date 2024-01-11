@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "761851041862",
+    "firebase_url": "https://porn-break-default-rtdb.firebaseio.com",
+    "project_id": "porn-break",
+    "storage_bucket": "porn-break.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761851041862:android:da91160ae4c612a81e5247",
+        "android_client_info": {
+          "package_name": "com.addiction.pornbreak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761851041862-eog62u9ojjcm73aa880gmol57e04mp8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIfALsrW8YB8OOFC_b_HAuX_iwnjgCK2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761851041862-eog62u9ojjcm73aa880gmol57e04mp8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761851041862:android:2b58f49d013e26231e5247",
+        "android_client_info": {
+          "package_name": "education.java.addictivebreak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761851041862-eog62u9ojjcm73aa880gmol57e04mp8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIfALsrW8YB8OOFC_b_HAuX_iwnjgCK2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761851041862-eog62u9ojjcm73aa880gmol57e04mp8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

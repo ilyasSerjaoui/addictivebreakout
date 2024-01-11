@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2DE369"
+    tools:context=".signup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/infoshape">
+                <EditText
+                    android:id="@+id/fullname"
+                    android:layout_width="300dp"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="50dp"
+                    android:hint="Full Name"/>
+                <EditText
+                    android:id="@+id/email"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="50dp"
+                    android:hint="E-mail"/>
+                <EditText
+                    android:id="@+id/pass1"
+                    android:layout_width="300dp"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="50dp"
+                    android:hint="Password"/>
+                <EditText
+                    android:id="@+id/pass2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="50dp"
+                    android:inputType="textPassword"
+                    android:hint="Correct Password"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="50dp">
+                    <EditText
+                        android:id="@+id/d"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:hint="DD"
+                        android:inputType="number"
+                        android:layout_marginStart="25dp"/>
+                    <EditText
+                        android:id="@+id/m"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:hint="MM"
+                        android:inputType="number"
+                        android:layout_marginStart="25dp"/>
+                    <EditText
+                        android:id="@+id/y"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:hint="YYYY"
+                        android:inputType="number"
+                        android:layout_marginStart="25dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="50dp">
+                    <EditText
+                        android:id="@+id/s"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:hint="SEX"
+                        android:inputType="text"
+                        android:layout_marginStart="25dp"/>
+
+                    <EditText
+                        android:id="@+id/ay"
+                        android:layout_width="198dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:inputType="number"
+                        android:hint="addictive years" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="SignUp" />
+                <TextView
+                    android:id="@+id/btl"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Back to login"
+                    android:textColor="#2DE369"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="50dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
